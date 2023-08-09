@@ -24,6 +24,7 @@ export default defineNuxtConfig({
     '@nuxthq/ui',
     '@nuxt/devtools',
     '@nuxt/content',
+    '@vueuse/nuxt',
   ],
   pinegrow: {
     liveDesigner: {

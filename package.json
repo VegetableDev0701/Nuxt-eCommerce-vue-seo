@@ -31,6 +31,7 @@
     "@tailwindcss/typography": "^0.5.9",
     "@unocss/preset-icons": "^0.54.1",
     "@vue/devtools": "^6.5.0",
+    "@vueuse/nuxt": "^10.1.2",
     "autoprefixer": "^10.4.14",
     "eslint": "^8.36.0",
     "eslint-config-prettier": "^8.7.0",
