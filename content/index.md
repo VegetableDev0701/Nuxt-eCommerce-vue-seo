@@ -1,8 +1,8 @@
-# eCommerce Store - Fullstack app with beautiful, accessible components from NuxtLabs UI library
+# eCommerce Store - Fullstack app with beautiful, accessible components from Nuxt UI library
 
-Nuxt 3 Full stack (SPA-SSR) quick start template that pre-includes the [Pinegrow Nuxt Module](https://www.npmjs.com/package/@pinegrow/nuxt-module), [Pinegrow Tailwind CSS Plugin](https://www.npmjs.com/package/@pinegrow/tailwindcss-plugin), [NuxtLabs UI](https://ui.nuxtlabs.com/getting-started) and other goodies for Vue Designer. This template uses the tailwind-based NuxtLabs UI component library and features an eCommerce store, where data is fetched via APIs server by server routes (Nitro-powered).
+Nuxt 3 Full stack (SPA-SSR) quick start template that pre-includes the [Pinegrow Nuxt Module](https://www.npmjs.com/package/@pinegrow/nuxt-module), [Pinegrow Tailwind CSS Plugin](https://www.npmjs.com/package/@pinegrow/tailwindcss-plugin), [Nuxt UI](https://ui.nuxtlabs.com/getting-started) and other goodies for Vue Designer. This template uses the tailwind-based Nuxt UI component library and features an eCommerce store, where data is fetched via APIs server by server routes (Nitro-powered).
 
-Demo - https://pg-nuxt-nuxtlabsui.netlify.app/
+Demo - https://pg-nuxtui.netlify.app/
 
 ## Vue Designer
 
@@ -18,15 +18,15 @@ Clean code 😃, No lock-in - You are in control of your projects and developmen
 
 ### 1. Clone to local
 
-[Create a repo from this template on GitHub](https://github.com/pinegrow/pg-nuxt-nuxtlabsui/generate).
+[Create a repo from this template on GitHub](https://github.com/pinegrow/pg-nuxtui/generate).
 
 (or)
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx giget@latest gh:pinegrow/pg-nuxt-nuxtlabsui my-nuxt-nuxtlabsui-app #project-name
-cd my-nuxt-nuxtlabsui-app
+npx giget@latest gh:pinegrow/pg-nuxtui my-nuxtui-app #project-name
+cd my-nuxtui-app
 npm install #or use pnpm
 ```
 
@@ -60,7 +60,7 @@ And you will see the generated file in `dist` that's ready to be served.
 ### Deploy to Netlify
 
 You can deploy this repo as a site on your own to explore and experiment with, by clicking this button.
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Pinegrow/pg-nuxt-nuxtlabsui)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Pinegrow/pg-nuxtui)
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
@@ -75,16 +75,16 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 - [Tailwind CSS](https://tailwindcss.com/docs/guides/nuxtjs#3) - The amazing utility-first CSS framework.
 
-- [NuxtLabs UI](https://ui.nuxtlabs.com/getting-started) - Fully styled and customizable components for Nuxt. Under the hood:
+- [Nuxt UI](https://ui.nuxtlabs.com/getting-started) - Fully styled and customizable components for Nuxt. Under the hood:
   - 🦾 **[HeadlessUI-Vue](https://headlessui.com/vue/menu)** - Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
   - ⚡ **[VueUse](https://vueuse.org/)** - collection of essential Vue composition utilities.
   - 🔌 **[Nuxt Tailwind CSS Module](https://tailwindcss.nuxtjs.org/)** - This module helps you set up Tailwind CSS in your Nuxt application in seconds.
   - 🌗 **[Nuxt Color Mode](https://color-mode.nuxtjs.org/)** - Dark and Light mode with auto detection made easy with Nuxt.
   - 😃 **[TailwindCSS Icons](https://github.com/egoist/tailwindcss-icons)** - Use any icon (100,000+) from Iconify, for TailwindCSS.
 
-### NuxtLabs UI configuration
+### Nuxt UI configuration
 
-- 👉 NuxtLabs uses heroicons by default and is configured only to use them. In order to use all iconsets in Vue Designer's icon-picker, the `ui` key of the Nuxt config has been updated (`icons: 'all'`).
+- 👉 Nuxt UI uses heroicons by default and is configured only to use them. In order to use all iconsets in Vue Designer's icon-picker, the `ui` key of the Nuxt config has been updated (`icons: 'all'`).
 - Also, note that there are some scenarios when colors might have to be added to the `safelistColors` array under the `ui` key. For more details, refer to the official [documentation](https://ui.nuxtlabs.com/getting-started/theming#colors).
 
   ```ts
@@ -97,7 +97,7 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
     ],
     pinegrow: {
       liveDesigner: {
-        iconPreferredCase: 'unocss', // default value (can be removed), nuxtlabs/ui uses the unocss format for icon names
+        iconPreferredCase: 'unocss', // default value (can be removed), Nuxt UI uses the unocss format for icon names
         //...
       },
     },
@@ -122,7 +122,7 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 ### Icons
 
-- [TailwindCSS Icons](https://github.com/egoist/tailwindcss-icons) - use over 100,000 open-source [Iconify](https://iconify.design/) icons. This is already part of NuxtLabs UI, so you just use UIcon component and icon props/slots of other components like UButton etc. Uses the **unocss** format for icon names, for example, `i-mdi-home`
+- [TailwindCSS Icons](https://github.com/egoist/tailwindcss-icons) - use over 100,000 open-source [Iconify](https://iconify.design/) icons. This is already part of Nuxt UI, so you just use UIcon component and icon props/slots of other components like UButton etc. Uses the **unocss** format for icon names, for example, `i-mdi-home`
 
 ### Modules/Plugins
 

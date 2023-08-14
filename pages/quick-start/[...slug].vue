@@ -27,7 +27,7 @@
             size="xs"
             class="ml-2"
             color="secondary"
-            to="https://github.com/pinegrow/pg-nuxt-nuxtlabsui"
+            to="https://github.com/pinegrow/pg-nuxtui"
             target="_blank"
           >
             <span>Click here</span>

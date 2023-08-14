@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     public: {
       title: `Vue Designer`,
       description:
-        'Vue Designer Nuxt Tailwind CSS / NuxtLabs UI - Quick start template',
+        'Vue Designer Nuxt Tailwind CSS / Nuxt UI - Quick start template',
       author: 'Pinegrow',
       nav: [
         { text: 'Home', link: '/' },
@@ -20,7 +20,7 @@ export default defineNuxtConfig({
   },
   modules: [
     '@pinegrow/nuxt-module',
-    //@unocss/nuxt & @unocss/preset-icons is not required, as nuxtlabs UI already includes an UIcon component that uses egoist/tailwindcss-icons which also uses the same unocss format for icon names, for example, i-mdi-home.
+    //@unocss/nuxt & @unocss/preset-icons is not required, as Nuxt UI already includes an UIcon component that uses egoist/tailwindcss-icons which also uses the same unocss format for icon names, for example, i-mdi-home.
     '@nuxthq/ui',
     '@nuxt/devtools',
     '@nuxt/content',
@@ -28,7 +28,7 @@ export default defineNuxtConfig({
   ],
   pinegrow: {
     liveDesigner: {
-      iconPreferredCase: 'unocss', // default value (can be removed), nuxtlabs/ui uses the unocss format for icon names
+      iconPreferredCase: 'unocss', // default value (can be removed), Nuxt UI uses the unocss format for icon names
       devtoolsKey: 'devtools', // see plugins/devtools.client.ts
       tailwindcss: {
         configPath: 'tailwind.config.ts',
