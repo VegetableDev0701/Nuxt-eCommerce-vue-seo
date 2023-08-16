@@ -36,7 +36,7 @@
 <template layout="default">
   <section class="mx-4 my-16 product-details">
     <div class="flex justify-center max-h-96 xl:max-h-[600px]">
-      <img :src="product.image" class="max-h-full" />
+      <img :src="product.image" class="max-h-full" :alt="product.title" />
     </div>
     <div class="mt-8 md:mt-0 md:mx-8">
       <div class="relative">

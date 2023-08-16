@@ -11,6 +11,7 @@
     <img
       src="https://images.unsplash.com/photo-1605217613423-0a61bd725c8a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE3fHxzdG9yZXxlbnwwfHx8fDE2OTA2MTY2ODN8MA&ixlib=rb-4.0.3&q=85"
       class="md:-mt-60"
+      alt="header"
     />
   </div>
 </template>
